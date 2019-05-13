@@ -92,6 +92,9 @@ Minimum configuration to host a Django project on Heroku with pipenv
 ```
  STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 ```
+## Add two more dependencies in the package:
+* `pipenv install gunicorn`
+* `pipenv install psycopg2`
 
 ## Create a file Procfile and add the following code
 ```
